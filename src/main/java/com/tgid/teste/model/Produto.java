@@ -32,7 +32,7 @@ public class Produto {
 	
 	@NotNull
 	@NotBlank
-	@Size(min = 5, max = 1000)
+	@Size(min = 1, max = 1000)
 	private String estoqueProduto;
 	
 	@NotNull

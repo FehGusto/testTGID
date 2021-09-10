@@ -6,10 +6,13 @@ import java.util.Optional;
 import org.apache.commons.codec.binary.Base64;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
+
 import com.tgid.teste.model.Usuario;
 import com.tgid.teste.model.usarLogin;
 import com.tgid.teste.repository.usuarioRepository;
 
+@Service
 public class usuarioService {
 	
 	
